@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "FC Block",
-  "version": "1.0",
-  "description": "Blocks the distracting elements of Farcaster.xyz",
+  "name": "FC Tweak",
+  "version": "1.0.0",
+  "description": "Tweak your Farcaster experience - block the feed and notifications to stay focused.",
   "permissions": ["activeTab", "storage"],
   "content_scripts": [
     {
@@ -14,11 +14,12 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "FC Block"
+    "default_title": "FC Tweak"
   },
   "icons": {
-    "16": "no.png",
-    "48": "no.png",
-    "128": "no.png"
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   }
 }

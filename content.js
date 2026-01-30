@@ -1,4 +1,4 @@
-// Farcaster Feed Blocker Content Script
+// FC Tweak Content Script
 
 let isBlocking = true; // Default state
 let originalContent = null; // Store original content when blocking is disabled
@@ -124,7 +124,7 @@ function addBlockedMessageToMainFeed() {
     blockedMessage.innerHTML = `
       <div>
         <h2>Nothing to see here</h2>
-        <p>The Farcaster feed has been blocked by <a href="https://github.com/lyoshenka/fcblock">FC Block extension</a>.</p>
+        <p>The Farcaster feed has been blocked by <a href="https://github.com/lyoshenka/fctweak">FC Tweak</a>.</p>
       </div>
     `;
     navParent.appendChild(blockedMessage);

@@ -16,16 +16,16 @@ jobs:
       
     - name: Create zip
       run: |
-        zip -r fc-block-extension.zip \
+        zip -r fc-tweak.zip \
           manifest.json \
           content.js \
           popup.html \
           popup.js \
           styles.css \
-          no.png
-        
+          icons/
+
     - name: Create Release
       uses: softprops/action-gh-release@v1
       with:
-        files: fc-block-extension.zip
+        files: fc-tweak.zip
         generate_release_notes: true

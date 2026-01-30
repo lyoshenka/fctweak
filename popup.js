@@ -1,4 +1,4 @@
-// Popup script for FC Block extension
+// Popup script for FC Tweak extension
 
 document.addEventListener("DOMContentLoaded", async () => {
   const toggle = document.getElementById("toggle");
